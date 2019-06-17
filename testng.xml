@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Youtube Tests Report" data-provider-thread-count="15">
+ 
+  <test name="Youtube Automation Test Report">
+    <classes>
+      <class name="com.testautomationworld.runners.TestRunner"/>
+    </classes>
+  </test> 
+   <!-- Test completed-->
+ 
+  <listeners>
+  		<listener class-name="com.testautomationworld.listeners.ITestListenerImpl"></listener>
+  </listeners>
+  
+</suite> <!-- Suite -->

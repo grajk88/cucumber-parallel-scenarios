@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Youtube Tests Report" duration-ms="178653" started-at="2019-06-17T07:39:58Z" finished-at="2019-06-17T07:42:56Z">
+    <groups>
+    </groups>
+    <test name="Youtube Automation Test Report" duration-ms="178653" started-at="2019-06-17T07:39:58Z" finished-at="2019-06-17T07:42:56Z">
+      <class name="com.testautomationworld.runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testautomationworld.runners.TestRunner@3ce1e309]" name="setUpClass" is-config="true" duration-ms="143" started-at="2019-06-17T07:39:58Z" finished-at="2019-06-17T07:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomationworld.runners.TestRunner@3ce1e309]" name="feature" duration-ms="178154" started-at="2019-06-17T07:39:58Z" data-provider="features" finished-at="2019-06-17T07:42:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["T4TA Channel Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Youtube T4TA Channel"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Giridhars-Air', ip: 'fe80:0:0:0:d2:bd0a:b0b5:290e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Giridhars-Air', ip: 'fe80:0:0:0:d2:bd0a:b0b5:290e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
+at com.testautomationworld.listeners.ExtentReportListener.captureScreenShot(ExtentReportListener.java:73)
+at com.testautomationworld.listeners.ExtentReportListener.testStepHandle(ExtentReportListener.java:52)
+at com.testautomationworld.stepDef.YoutubeFeatureStepDef.validate_channel_name(YoutubeFeatureStepDef.java:126)
+at ✽.I should be taken to T4TA Channel page(./features/YoutubeFeature.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testautomationworld.runners.TestRunner@3ce1e309]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2019-06-17T07:42:56Z" finished-at="2019-06-17T07:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testautomationworld.runners.TestRunner -->
+    </test> <!-- Youtube Automation Test Report -->
+  </suite> <!-- Youtube Tests Report -->
+</testng-results>
