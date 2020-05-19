@@ -5,3 +5,10 @@ In general, Cucumber Parallel Execution happens from Feature file level and does
 # How can we achive this?
 
 Using TestNG's parallel function we can execute the scenarios in parallel. This sample project contains the code that executes the scenarios in parallel within the same feature file.
+
+## License
+
+This project is licensed under the MIT License - see [here](https://mit-license.org/) for details
+
+## Author
+Giridhar Rajkumar
